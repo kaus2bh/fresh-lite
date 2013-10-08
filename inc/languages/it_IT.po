@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Fresh Pro\n"
+"Project-Id-Version: Fresh Free\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-08-15 14:35:10 UTC\n"
-"PO-Revision-Date: 2013-10-01 14:02+0530\n"
+"POT-Creation-Date: 2013-08-19 10:05:11 UTC\n"
+"PO-Revision-Date: 2013-10-08 18:09+0530\n"
 "Last-Translator: Surya <surya@cyberchimps.com>\n"
 "Language-Team: Italian, Italy\n"
 "MIME-Version: 1.0\n"
@@ -14,43 +14,41 @@ msgstr ""
 
 #: ../../404.php
 msgid "Oops! That page cannot be found."
-msgstr "Oops! Quella pagina non può essere trovata."
+msgstr ""
 
 #: ../../404.php
 msgid ""
 "It looks like nothing was found at this location. Maybe try searching for it?"
 msgstr ""
-"Sembra che nulla è stato trovato in questa posizione. Forse provare a "
-"cercarlo?"
 
 #: ../../archive.php
 msgid "Category Archives: %s"
-msgstr "Archivio Categoria: %s"
+msgstr ""
 
 #: ../../archive.php
 msgid "Tag Archives: %s"
-msgstr "Archivi Tag: %s"
+msgstr ""
 
 #: ../../archive.php
 msgid "Author Archives: %s"
-msgstr "Archivi autore: %s"
+msgstr ""
 
 #: ../../archive.php
 msgid "Daily Archives: %s"
-msgstr "Archivi giornalieri: %s"
+msgstr ""
 
 #: ../../archive.php
 msgid "Monthly Archives: %s"
-msgstr "Archivi mensili: %s"
+msgstr ""
 
 #: ../../archive.php
 msgid "Yearly Archives: %s"
-msgstr "Archivi annuali: %s"
+msgstr ""
 
 #: ../../archive.php ../../footer.php ../../sidebar-left.php
 #: ../../sidebar-right.php ../../sidebar.php
 msgid "Archives"
-msgstr "Archivi"
+msgstr ""
 
 #: ../../comments.php
 msgid "One thought on &ldquo;%2$s&rdquo;"
@@ -59,45 +57,45 @@ msgstr[0] ""
 
 #: ../../comments.php
 msgid "Comment navigation"
-msgstr "Navigazione commenti"
+msgstr ""
 
 #: ../../comments.php
 msgid "Older Comments"
-msgstr "Anziani Commenti"
+msgstr ""
 
 #: ../../comments.php
 msgid "Newer Comments"
-msgstr "Commenti più recenti"
+msgstr ""
 
 #: ../../comments.php
 msgid "Comments are closed."
-msgstr "I commenti sono chiusi."
+msgstr ""
 
 #: ../../content.php
 msgid "Permalink to %s"
-msgstr "Permalink a %s"
+msgstr ""
 
 #: ../../content.php
 msgid "Continue reading"
-msgstr "Continua a leggere"
+msgstr ""
 
 #: ../../content.php ../../image.php
 msgid "Pages:"
-msgstr "Pagine"
+msgstr ""
 
 #: ../../content.php ../../image.php
 msgid "Edit"
-msgstr "mod"
+msgstr ""
 
 #: ../../footer.php ../../sidebar-left.php ../../sidebar-right.php
 #: ../../sidebar.php
 msgid "Pages"
-msgstr "Pagine"
+msgstr ""
 
 #: ../../footer.php ../../sidebar-left.php ../../sidebar-right.php
 #: ../../sidebar.php
 msgid "Categories"
-msgstr "Categorie"
+msgstr ""
 
 #: ../../footer.php ../../sidebar-left.php ../../sidebar-right.php
 #: ../../sidebar.php
@@ -108,7 +106,7 @@ msgstr "WordPress"
 #: ../../sidebar.php
 msgid ""
 "Powered by WordPress, state-of-the-art semantic personal publishing platform."
-msgstr "Funziona con Wordpress."
+msgstr ""
 
 msgid "Pingback:"
 msgstr "Pingback:"
@@ -119,111 +117,113 @@ msgstr "(Modifica)"
 
 #: ../../functions.php
 msgid "says:"
-msgstr "dice"
+msgstr ""
 
 #: ../../functions.php
 msgid "Your comment is awaiting moderation."
-msgstr "Il commento è in attesa di moderazione."
+msgstr ""
 
 #: ../../functions.php
 msgid "%1$s at %2$s"
-msgstr "%1$s in %2$s"
+msgstr ""
 
 #: ../../functions.php
-msgid "Fresh Pro Responsive WordPress Theme"
-msgstr "CyberChimps Pro reattivo Starter WordPress Theme"
+msgid "Fresh Free Professional Responsive WordPress Theme"
+msgstr ""
 
 #: ../../functions.php
-msgid "Cyberchimps Link"
-msgstr "Link Cyberchimps"
+msgid "Header Image"
+msgstr ""
+
+#: ../../functions.php
+msgid ""
+"The image used for the header needs to be a large image. We recommend a "
+"minimum width of 1000px and a maximum height of 550px"
+msgstr ""
 
 #: ../../image.php
 msgid "Published"
-msgstr "Pubblicato"
+msgstr ""
 
 #: ../../image.php
 msgid "size"
-msgstr "Dim."
+msgstr ""
 
 #: ../../image.php
 msgid "in"
-msgstr "tra"
+msgstr ""
 
 #: ../../image.php
 msgid "Previous"
-msgstr "Precedente"
+msgstr ""
 
 #: ../../image.php
 msgid "Next"
-msgstr "Avanti"
+msgstr ""
 
 #: ../../image.php
 msgid "Post a comment"
-msgstr "Posta un commento"
+msgstr ""
 
 #: ../../image.php
 msgid "or leave a trackback"
-msgstr "o lascia un trackback"
+msgstr ""
 
 msgid "Trackback URL"
 msgstr "Trackback URL"
 
 #: ../../image.php
 msgid "Comments are closed, but you can leave a trackback: "
-msgstr "I commenti sono chiusi, ma puoi lasciare un trackback"
+msgstr ""
 
 #: ../../image.php
 msgid "Trackbacks are closed, but you can %s"
-msgstr "Trackbacks sono chiusi, ma puoi %s"
+msgstr ""
 
 #: ../../image.php
 msgid "post a comment"
-msgstr "Posta un commento"
+msgstr ""
 
 #: ../../image.php
 msgid "Both comments and trackbacks are currently closed."
-msgstr "Sia i commenti e trackback sono attualmente chiusi."
+msgstr ""
 
 #: ../../no-results.php
 msgid "Nothing Found"
-msgstr "Trovato nulla"
+msgstr ""
 
 #: ../../no-results.php
 msgid "Ready to publish your first post?"
-msgstr "Pronto a pubblicare il tuo primo post?"
+msgstr ""
 
 #: ../../no-results.php
 msgid "Get started here"
-msgstr "Inizia qui"
+msgstr ""
 
 #: ../../no-results.php
 msgid ""
 "Sorry, but nothing matched your search terms. Please try again with some "
 "different keywords."
 msgstr ""
-"Spiacente, ma nulla corrisponde ai tuoi termini di ricerca. Riprova con "
-"alcune parole chiave diverse."
 
 #: ../../no-results.php
 msgid ""
 "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
 "searching can help."
 msgstr ""
-"Sembra che non riusciamo a trovare ciò che stai cercando. Forse la ricerca "
-"può aiutare."
 
 #: ../../search.php
 msgid "Search Results for: %s"
-msgstr "Risultati di ricerca per: %s"
+msgstr ""
 
 #: ../../sidebar-left.php ../../sidebar-right.php ../../sidebar.php
 msgid "Subscribe"
-msgstr "Abbonati"
+msgstr ""
 
 #: ../../sidebar-left.php ../../sidebar-right.php ../../sidebar.php
 msgid "Entries (RSS)"
-msgstr "RSS"
+msgstr ""
 
 #: ../../sidebar-left.php ../../sidebar-right.php ../../sidebar.php
 msgid "Comments (RSS)"
-msgstr "Commenti (RSS)"
+msgstr ""

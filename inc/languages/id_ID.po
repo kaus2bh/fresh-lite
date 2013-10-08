@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Fresh Pro\n"
+"Project-Id-Version: Fresh Free\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-08-15 14:35:10 UTC\n"
-"PO-Revision-Date: 2013-10-01 14:01+0530\n"
+"POT-Creation-Date: 2013-08-19 10:05:11 UTC\n"
+"PO-Revision-Date: 2013-10-08 18:08+0530\n"
 "Last-Translator: Surya <surya@cyberchimps.com>\n"
 "Language-Team: Indonesian, Indonesia\n"
 "MIME-Version: 1.0\n"
@@ -131,12 +131,20 @@ msgid "%1$s at %2$s"
 msgstr "%1$ s %2$ s"
 
 #: ../../functions.php
-msgid "Fresh Pro Responsive WordPress Theme"
+msgid "Fresh Free Professional Responsive WordPress Theme"
 msgstr "CyberChimps Pro Responsif WordPress Tema Starter"
 
 #: ../../functions.php
-msgid "Cyberchimps Link"
-msgstr "Cyberchimps Link"
+msgid "Header Image"
+msgstr "gambar header"
+
+#: ../../functions.php
+msgid ""
+"The image used for the header needs to be a large image. We recommend a "
+"minimum width of 1000px and a maximum height of 550px"
+msgstr ""
+"Gambar yang digunakan untuk header perlu gambar besar. Kami menyarankan "
+"lebar minimum 1000px dan ketinggian maksimum 550px"
 
 #: ../../image.php
 msgid "Published"
@@ -160,7 +168,7 @@ msgstr "Maju"
 
 #: ../../image.php
 msgid "Post a comment"
-msgstr "posting komentar"
+msgstr "Posting komentar"
 
 #: ../../image.php
 msgid "or leave a trackback"
@@ -179,7 +187,7 @@ msgstr "Pelacakan ditutup, tapi Anda dapat %s"
 
 #: ../../image.php
 msgid "post a comment"
-msgstr "posting komentar"
+msgstr "Posting komentar"
 
 #: ../../image.php
 msgid "Both comments and trackbacks are currently closed."

@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Fresh Pro\n"
+"Project-Id-Version: Fresh Free\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-08-15 14:35:10 UTC\n"
-"PO-Revision-Date: 2013-10-01 14:02+0530\n"
+"POT-Creation-Date: 2013-08-19 10:05:11 UTC\n"
+"PO-Revision-Date: 2013-10-08 18:09+0530\n"
 "Last-Translator: Surya <surya@cyberchimps.com>\n"
 "Language-Team: Hindi, India\n"
 "MIME-Version: 1.0\n"
@@ -66,11 +66,11 @@ msgstr "पुराना टिप्पणियाँ"
 
 #: ../../comments.php
 msgid "Newer Comments"
-msgstr "टिप्पणियां नए"
+msgstr "नई टिप्पणियाँ"
 
 #: ../../comments.php
 msgid "Comments are closed."
-msgstr "टिप्पणियाँ बंद हो जाती हैं."
+msgstr "टिप्पणियाँ बंद हो जाती हैं।"
 
 #: ../../content.php
 msgid "Permalink to %s"
@@ -109,8 +109,9 @@ msgid ""
 "Powered by WordPress, state-of-the-art semantic personal publishing platform."
 msgstr "WordPress, राज्य के कला अर्थ निजी प्रकाशन मंच द्वारा संचालित है."
 
+#: ../../functions.php
 msgid "Pingback:"
-msgstr "Pingback:"
+msgstr "Pingback"
 
 #: ../../functions.php
 msgid "(Edit)"
@@ -129,12 +130,20 @@ msgid "%1$s at %2$s"
 msgstr "%1$s पर %2$s"
 
 #: ../../functions.php
-msgid "Fresh Pro Responsive WordPress Theme"
+msgid "Fresh Free Professional Responsive WordPress Theme"
 msgstr "CyberChimps प्रो उत्तरदायी WordPress स्टार्टर थीम"
 
 #: ../../functions.php
-msgid "Cyberchimps Link"
-msgstr "Cyberchimps लिंक"
+msgid "Header Image"
+msgstr "हैडर छवि"
+
+#: ../../functions.php
+msgid ""
+"The image used for the header needs to be a large image. We recommend a "
+"minimum width of 1000px and a maximum height of 550px"
+msgstr ""
+"छवि के लिए शीर्षक का प्रयोग एक बड़ी छवि हो करने के लिए की जरूरत है। हम अनुशंसा करते हैं "
+"1000px की एक न्यूनतम चौड़ाई और 550px के एक अधिकतम ऊंचाई"
 
 #: ../../image.php
 msgid "Published"
