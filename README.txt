@@ -1,7 +1,7 @@
-Fresh Pro responsive Wordpress theme
+Fresh Free responsive Wordpress theme
 ====================================
 
-- Fresh Pro
+- Fresh Free
 - by CyberChimps http://cyberchimps.com
 - Licensed under GNU General Public License v2.0 - http://www.gnu.org/licenses/gpl-2.0.html
 

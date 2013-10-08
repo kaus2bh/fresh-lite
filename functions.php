@@ -118,21 +118,21 @@ function cyberchimps_theme_check() {
 
 //Theme Name
 function cyberchimps_options_theme_name() {
-	$text = 'Fine Free';
+	$text = 'Fresh Free';
 
 	return $text;
 }
 
 //Theme Pro Name
 function cyberchimps_upgrade_bar_pro_title() {
-	$text = 'Fine Pro';
+	$text = 'Fresh Pro';
 
 	return $text;
 }
 
 //Upgrade link
 function cyberchimps_upgrade_bar_pro_link() {
-	$url = 'http://cyberchimps.com/store/fine-pro/';
+	$url = 'http://cyberchimps.com/store/fresh-pro/';
 
 	return $url;
 }
@@ -146,7 +146,7 @@ function cyberchimps_options_documentation_url() {
 
 // Support Forum URL
 function cyberchimps_options_support_forum() {
-	$url = 'http://cyberchimps.com/forum/free/finefree/';
+	$url = 'http://cyberchimps.com/forum/free/freshfree/';
 
 	return $url;
 }
@@ -159,13 +159,13 @@ add_filter( 'cyberchimps_support_forum', 'cyberchimps_options_support_forum' );
 
 // Help Section
 function cyberchimps_options_help_header() {
-	$text = 'Fine Free';
+	$text = 'Fresh Free';
 
 	return $text;
 }
 
 function cyberchimps_options_help_sub_header() {
-	$text = __( 'Fine Free Professional Responsive WordPress Theme', 'cyberchimps' );
+	$text = __( 'Fresh Free Professional Responsive WordPress Theme', 'cyberchimps' );
 
 	return $text;
 }
