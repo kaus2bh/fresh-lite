@@ -1,0 +1,253 @@
+CyberChimps Pro Changelog
+
+****************************
+
+Version 1.1.1.4 (8-9-13)
+- Fixed links in theme options
+- Half slider can now be displayed below the page content
+- Removed call for Customizer menu as WP3.6 calls it by default
+- Fixed standard violation notices that occur since WP3.6
+- Footer copyright text now allows the following tags <br>, <em>, <strong> and <a> with href and title
+- Twitter fix on pages
+
+Version 1.1.1.3 (7-30-13)
+
+- Fixed carousel caption class conflict
+- Added filter for font face for headings
+- Added page option to change Twitter handle
+- Fixed container width issue
+
+Version 1.1.1.2 (7-26-13)
+
+- Class names are separated by hyphens and ID's by underscores. e.g. .this-is-a-class #this_is_an_id
+- Twitter element styling
+- Added Polish to languages
+- Options pre-save hook added
+- Added filter for typography option
+- Added option to add Title to blog page
+- Blog title added filter
+- Changed custom css validation to make it less strict
+- Updated carousel plugin to latest version
+- Changed filter names for footer widgets
+- Function exists check to allow overwriting of the function that adds the custom css
+- Youtube url fix for responsive videos
+- Added Filters to widget titles
+- Woocommerce removed max width
+- Changed the location of the skin css in the head
+- Options fixed the reset being activated when enter is pressed. Now it saves the options
+- Default text for boxes
+- Added the ability to click anywhere outside of the mobile menu to close it
+- Added html structure to page password
+- Improved typography options to allow different font choices for headings and text
+- Updated customizer with new typography settings
+- Boxes made js load on window not document to allow all images to load first
+- Removed slider max height styling
+- Twitter added option to add multiple Tweets
+- Twitter added option to include replies and re-Tweets
+- Twitter re-Tweets and replies have users gravatar
+- Product added class to distinguish between left and right text
+- Recent posts changed structure to allow padding without adding to the width
+
+Version 1.1.1.1 (6-26-13)
+- Fixed menu bug where dropdowns were not showing
+
+Version 1.1.1.0 (6-25-13)
+- Improved schema for microformats
+- Small style tweaks
+- Blog name now use h2 tag and post and page titles use h1 tags for improved SEO
+- Social icon options are moved into footer section
+- ie style fixes for menu and portfolio
+- Custom CSS sanitization bug fix
+- Woocommerce id name change from #content-woocommerce to #cc_woocommerce
+- Optimized plugin/addon check code
+- Added filter for options
+- Fixed Twitter Bar element to work with the new Twitter API v1.1
+- Translation updates
+- Added styling for callout
+
+Version 1.1.0.9 (5-31-13)
+-Product Element - set up product element
+-Product Element - set up page options and js to show the options
+-Product page options syncronised defaults and text with blog options
+-Unfiltered textarea added ability to add class
+-Select toggle created function to hide/show elements with select boxes
+-Added containers to allow for better and easier styling
+-Applied esc_url() to product URL.
+-Added product default image
+-Removed location function and created a location variable to reduce load
+-Boxes - added filter for default number
+-Removed modal welcome note on theme install
+-Updated pot file meta
+-Updated Tranlations.
+-Added filter for pagination base value.
+-Boxes tweaked to show theme name in default boxes.
+-Added the searchbar text option.
+-Fixed the double sliders issue. 
+-Added filter 'cyberchimps_sidebar_before_widget' to add markup before widget.
+-Added filter 'cyberchimps_sidebar_after_widget' to define markup after widget.
+-Footer image logo updated
+-Added function cyberchimps_posted_by() to display author link.
+-Modified function cyberchimps_posted_on(), tags containing date fields are made to be printed only when date toggle is on.
+-Added function call to cyberchimps_posted_on()
+
+Version 1.1.0.8 (5-13-13)
+-Fixed typo in boxes page option.
+-Updated layout for elements along with pagination, header, menu, footer and after footer.
+-Fixed empty div issue when half size slider is selected.
+-Added "section" to each elements id.
+-Added class to menu walker for grandchild menu li to help styling.
+-Added filter to create arrow/caret to show grandchild menu.
+-Removed the hgroup tag.
+-Fixed page boxes image error.
+-Changed the priority of the readmore filter.
+-Replaced cyberchimps_option() with cyberchimps_get_option().
+-Removed cyberchimps_option() function.
+-Improved Woocommerce layout.
+-Updated slimbox to latest version.
+-Prevented default click action on mobile level slimbox.
+-Removed image loading in lightbox for mobile devices.
+-Updated Dutch and German Languages.
+-Changed the layout of the footer menu to include full width.
+-Fixed custom post archive issue.
+-Removed script tags from the footer scripts.
+-Changed font color of links in boxes.
+-Removed the link from the single posts' title.
+-Changed the separator for the content in the meta tag from semi-colon to comma.
+
+Version 1.1.0.7 (4/5/13)
+-Changed the way the theme handles translations
+-Changed the way footer hooks work
+-Added footer menu
+-Added new media uploader
+-Added reset for drag and drop on theme switch
+-Added lightbox for gallery images
+-Added Event Calendar integration
+-Added option to choose number of Boxes in Boxes element
+-Improved Woocommerce integration
+-Added shortcodes to access Bootstrap functionality
+-Fixed suppress filters on some elements to allow for better integration with plugins
+
+Version 1.1.0.6 (3/14/13)
+-Added Twitter handle filter
+-Added Filter for default header value
+-Added Title for templates
+-Set default fallback for post meta
+-Fixed custom post type boxes option section display
+-Added theme compatability for Woocommerce
+-Added Woocommerce shop page layout
+-Added filter for post type visibility
+-Fixed boxes image bug when no image supplied
+-New option to add javascript to footer
+-Recent posts ids changed to classes
+-Slider image is only clickable when url is defined
+
+Version 1.1.0.5 (2/20/13)
+-Moved location of wp_footer()
+-Added Danish language files
+-Fix excerpt
+-Fix Feed title
+-Fix width of container for ie8
+-Added fallback menu
+-Updated language definitions
+-Callout allow html tags a, br, em ,strong, blockquote, span, ul, ol and li to allow for simple styling of Callout text
+-Callout text input now textarea instead of editor
+
+Version 1.1.0.4 (1/25/13)
+-Fix upload bug
+
+Version 1.1.0.3 (01/23/13)
+-Added skin image selector
+-POT file Updates
+-Customizer defaults setup
+-Slider Fix for ie9
+-Fix menu bugs
+-Style class name change to avoid WP conflict
+-Fix for page options not saving
+-Fix Slider bug
+-Fix Pagination bug
+
+Version 1.1.0.2 (01/04/13)
+-Styling for code after comments
+-Set defaults to work in live preview
+-Added classes to excerpt links
+-Code clean up
+-New background image
+-Bug fixes
+-HTML Box now accepts all HTML elements
+
+Version 1.1.0.1 (12/21/12)
+-Added language translation files for German, Spanish, French, Hindi, Indonesian, Italian, Japanese, Dutch, Brazilian, Russian and Chinese.
+-Improved mobile menu design
+-Search result pages title links to page/post
+-Active page now highlighted in menu
+-Google fonts can now be accessed through SSL
+-Re-organization of option functions
+-Custom CSS Validation Fix
+-Added Link from featured image to post
+
+Version 1.1.0.0 (12/11/12)
+-Fix upload button in pages
+-Fix default load on theme activation
+-Fix breadcrumbs
+
+Version 1.0.9 (12/09/12)
+-Fix Custom CSS
+
+Version 1.0.8 (12/07/12)
+
+-Fix background color in customizer and backgrounds
+
+Version 1.0.7 (12/07/12)
+
+-Fix bugs with WP debug
+-Fix default drag and drop options
+
+Version 1.0.6 (12/06/12)
+
+-Fix swipe actions on touch devices for WP3.5
+-Fixed 404 background image call
+
+Version 1.0.5 (12/05/12)
+
+-Fixed page drag and drop elements in WP3.5
+-Fixed import
+
+Version 1.0.4 (12-05-12)
+
+-Widget backgrounds made transparent
+-Created theme specific filters
+-Fixed tag link styling
+-Moved pro functions and options to submodule
+-Slider control styling fix
+-CyberChimps backgrounds now working in Customizer
+-Responsive video embeds
+-Toggle for slider caption
+-Filtered out byline with no content
+-Added Google map to social icon header section
+-Set up theme defaults
+-Changed Lightbox naming convention to avoid conflict with plugins
+-Fixed breadcrumbs display
+-Fixed callout bug
+
+Version 1.0.3 (11-29-12)
+
+-Installed new updater.
+
+Version 1.0.2 (11-28-12)
+
+-Core updates and bug fixes.
+-Removed default widget text.
+-Improved filters.
+-Fixed media uploader conflict.
+-Added slider speed option, fixed height, posts.
+-Customizer support added.
+
+Version 1.0.1 (11-09-12)
+
+-Google analytics added to footer.
+-Added more options to Boxes Element.
+-Bug fixes.
+
+Version 1.0 (11-09-12)
+
+-Initial release.

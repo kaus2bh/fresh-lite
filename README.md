@@ -1,4 +1,0 @@
-freshfree
-=========
-
-Fresh Free Theme
