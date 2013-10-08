@@ -255,6 +255,7 @@ header #search #searchform {
 }
 
 #navigation #searchform {
+	margin-top: 15px;
 	margin-right: 15px;
 }
 
@@ -883,68 +884,16 @@ table#wp-calendar td {
 
 /*==================================== SLIDER =====================================================*/
 
-#slider .carousel-control {
+#slider-lite .carousel-control {
 	border-color: #a1ba3a;
 	color: #a1ba3a;
 	line-height: 30px;
 	opacity: 1;
 }
 
-#slider .carousel-control:hover {
+#slider-lite .carousel-control:hover {
 	opacity: 0.5;
 	filter: alpha(opacity=50);
-}
-
-/*==================================== CALLOUT ====================================================*/
-
-#callout_container {
-	margin-bottom: 20px;
-}
-
-#callout {
-	padding: 20px;
-	background: #a1ba3a;
-	color: #ffffff;
-	text-shadow: 1px 1px 2px #475219;
-}
-
-.callout-text h2.callout-title {
-	margin-top: 0;
-	font: 1.9em Montserrat, Helvetica, Arial, sans-serif;
-	line-height: 1em;
-}
-
-.callout-text p {
-	font-size: 1.2em;
-	line-height: 1.4em;
-}
-
-.callout-text p:last-child {
-	margin-bottom: 0;
-}
-
-#callout_button a {
-	float: right;
-	margin-top: 5px;
-}
-
-#callout_button .btn-primary {
-	background: #ececec;
-	background: -moz-linear-gradient(top, #ffffff 0%, #ececec 100%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #ececec)); /* Old browsers */
-	background: -webkit-linear-gradient(top, #ffffff 0%, #ececec 100%); /* FF3.6+ */
-	background: -o-linear-gradient(top, #ffffff 0%, #ececec 100%); /* Chrome,Safari4+ */
-	background: -ms-linear-gradient(top, #ffffff 0%, #ececec 100%); /* Chrome10+,Safari5.1+ */
-	background: linear-gradient(to bottom, #ffffff 0%, #ececec 100%); /* Opera 11.10+ */
-	color: #666666; /* IE10+ */
-	text-shadow: none; /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ececec', GradientType=0); /* IE6-9 */
-
-}
-
-#callout_button .btn:hover {
-	background: #ececec;
-	color: #333333;
 }
 
 /*==================================== WIDGET BOXES ===============================================*/
@@ -962,22 +911,12 @@ table#wp-calendar td {
 	transition: all .3s;
 }
 
-#widget_boxes_container .box {
-	padding: 0;
-	width: auto;
-	background: #ffffff;
-}
-
 .box:hover {
 	background: #444444;
 }
 
-h2.box-widget-title {
-	margin-top: 0;
-	margin-bottom: 5px;
-	color: #a1ba3a;
-	text-align: left;
-	line-height: 1em;
+#widget-boxes-container .box-image {
+	margin-bottom: 20px;
 }
 
 .box p {
@@ -988,7 +927,7 @@ h2.box-widget-title {
 	line-height: 1.4em;
 }
 
-#widget_boxes_container .boxes p {
+#widget-boxes-container .boxes p {
 	color: #666666;
 }
 
@@ -1018,102 +957,6 @@ h2.box-widget-title {
 	}
 }
 
-/*==================================== BOXES ======================================================*/
-
-#boxes_container .box a {
-	display: block;
-	width: 100%;
-	color: #555555;
-	text-align: center;
-}
-
-#boxes_container .box-no-url {
-	cursor: default;
-}
-
-/*==================================== CAROUSEL ===================================================*/
-
-#carousel {
-	padding: 0 50px;
-	background: #ffffff;
-}
-
-#carousel ul {
-	margin: 0;
-	padding: 0;
-	max-height: 150px;
-	width: 100%;
-}
-
-#carousel ul li {
-	position: relative;
-	display: inline-block;
-	margin-bottom: 0;
-}
-
-#carousel ul li .carousel-captions {
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	width: 100%;
-	background: rgba(0, 0, 0, 0.5);
-}
-
-#carousel ul li .carousel-captions p {
-	margin: 0;
-	color: #ffffff;
-	text-align: center;
-	font-weight: normal;
-	font-size: 1em;
-}
-
-#carousel .carousel-control {
-	top: 50%;
-	border: none;
-}
-
-#carousel .carousel-control.left {
-	left: 5px;
-}
-
-#carousel .carousel-control.right {
-	right: 5px;
-}
-
-#slider.carousel.slide {
-	margin-bottom: 0;
-	border-bottom: 1px solid #ffffff;
-}
-
-.carousel-captions {
-	margin: 5px 0 0 0;
-}
-
-@media (max-width: 767px) {
-	#carousel [class*="span"], .row-fluid #carousel [class*="span"] {
-		float: left;
-		margin-left: 2.762430939%;
-		width: 14.364640883%;
-	}
-
-	#carousel [class*="span"]:first-child, .row-fluid #carousel [class*="span"]:first-child {
-		margin-left: 0;
-	}
-
-	header#cc-header .blog-description {
-		margin-top: 10px;
-		color: #cccccc;
-		text-align: center;
-	}
-
-	header#cc-header h2.site-title {
-		margin-top: 20px;
-		text-align: center;
-		line-height: .9em;
-	}
-
-}
-
 /*==================================== PORTFOLIO ===================================================*/
 
 #gallery {
@@ -1127,6 +970,7 @@ h2.box-widget-title {
 }
 
 #gallery h2 {
+	color: #a1ba3a;
 	margin-top: 0;
 	font-weight: 400;
 	font-size: 1.6em;
@@ -1139,165 +983,6 @@ h2.box-widget-title {
 
 #gallery ul.row-fluid li#portfolio_wrap .portfolio-item {
 	margin-bottom: 20px;
-}
-
-/*==================================== TWITTER =====================================================*/
-
-#twitter_container {
-	margin-bottom: 20px;
-}
-
-#twitter_bar {
-	background: #ffffff;
-}
-
-#twitter_bar #twitter_text li {
-	float: left;
-	clear: left;
-	width: 100%;
-}
-
-#twitter_bar #twitter_text .twitter-img {
-	display: inline;
-	float: left;
-}
-
-#twitter_bar #twitter_text .twitter-followers {
-}
-
-#twitter_bar #twitter_text .tweet {
-	margin-left: 75px;
-}
-
-@media (max-width: 480px) {
-	#twitter_bar #twitter_text img {
-		margin-top: 0;
-		width: 30px;
-		height: 21px;
-	}
-
-	#twitter_bar #twitter_text p {
-		padding-left: 40px;
-	}
-}
-
-/*==================================== BREADCRUMBS =================================================*/
-
-.breadcrumbs {
-	margin-bottom: 20px;
-	padding: 10px 20px;
-	background: #ffffff;
-	font-size: 1.1em;
-}
-
-/*==================================== PAGINATION ==================================================*/
-
-.pagination ul li a {
-	background: #ffffff;
-}
-
-/*==================================== RECENT POSTS ================================================*/
-
-.recent-posts-container {
-	margin-bottom: 20px;
-}
-
-#recent_posts h5.recent-posts-post-title {
-	font-size: 1.4em;
-	line-height: 1.3em;
-}
-
-.recent-posts-image {
-	margin-bottom: 10px;
-}
-
-.recent-posts-container h5 a {
-	color: #333333;
-}
-
-/*==================================== HTML BOX ==================================================*/
-
-#htmlbox_container {
-	margin-bottom: 20px;
-}
-
-/*==================================== PRODUCT BOX ==================================================*/
-
-#cyberchimps_product h2 {
-	color: #333333;
-	font-family: Montserrat Alternates, Helvetica, Arial, sans-serif;
-}
-
-#cyberchimps_product .btn {
-	background: #a1ba3a;
-	background: -moz-linear-gradient(top, #d3f34d 0%, #a1ba3a 100%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #d3f34d), color-stop(100%, #a1ba3a)); /* Old browsers */
-	background: -webkit-linear-gradient(top, #d3f34d 0%, #a1ba3a 100%); /* FF3.6+ */
-	background: -o-linear-gradient(top, #d3f34d 0%, #a1ba3a 100%); /* Chrome,Safari4+ */
-	background: -ms-linear-gradient(top, #d3f34d 0%, #a1ba3a 100%); /* Chrome10+,Safari5.1+ */
-	background: linear-gradient(to bottom, #d3f34d 0%, #a1ba3a 100%); /* Opera 11.10+ */
-	color: #ffffff; /* IE10+ */
-	text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.5); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d3f34d', endColorstr='#a1ba3a', GradientType=0); /* IE6-9 */
-}
-
-#cyberchimps_product .btn:hover {
-	background: #a1ba3a;
-}
-
-/*==================================== MAGAZINE ==================================================*/
-
-#magazine .magazine-post-container {
-	overflow: hidden;
-	margin-bottom: 10px;
-	padding: 20px;
-}
-
-#magazine .magazine-post-container  h2.posts-title {
-	margin: 0 0 10px 0;
-	font-size: 22px;
-	line-height: 1em;
-}
-
-#magazine .magazine-metadata {
-	padding-bottom: 10px;
-	font-size: 11px;
-}
-
-#magazine .magazine-post-container  div#comments {
-	font-size: 11px;
-	line-height: 1em;
-}
-
-#magazine .magazine-post-container img.wp-post-image {
-	width: 100%;
-	height: auto;
-}
-
-#magazine .magazine-wide-post img.wp-post-image {
-	float: left;
-	margin: 0 10px 10px 0;
-	width: auto;
-	height: auto;
-}
-
-/*==================================== PRODUCT ==================================================*/
-
-#product_element_section {
-	margin-bottom: 20px;
-}
-
-#product_element_section #cyberchimps_product_media {
-	text-align: center;
-}
-
-#product_element_section .flex-video {
-	margin-bottom: 0;
-}
-
-#product_element_section .cyberchimps-product-link {
-	margin-top: 20px;
-	text-align: center;
 }
 
 /********************************************************************************************************************/
