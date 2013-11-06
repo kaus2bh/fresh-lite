@@ -18,6 +18,7 @@ License URI: http://www.opensource.org/licenses/gpl-license.php GPL v3.0 (or lat
 body {
 	background: url(images/bg.jpg) repeat-x;
 	color: #555555;
+	word-wrap: break-word;
 }
 
 a {
