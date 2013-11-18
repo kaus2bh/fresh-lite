@@ -16,7 +16,6 @@ License URI: http://www.opensource.org/licenses/gpl-license.php GPL v3.0 (or lat
 /******************************************** MAIN HTML STYLES ******************************************************/
 /********************************************************************************************************************/
 body {
-	background: url(images/bg.jpg) repeat-x;
 	color: #555555;
 	word-wrap: break-word;
 }
@@ -118,13 +117,19 @@ header #social .icons a {
 
 /*======================================= DETAILS =============================================*/
 
+#header_section {
+	background: #333333 url(images/bg.jpg) repeat-x;
+	background-position: 0 100%;
+	padding-bottom: 40px;
+}
+
 header#cc-header h2.site-title {
-	margin-bottom: 5px;
+	margin-bottom: 40px;
 	text-shadow: 2px 2px 2px #000000;
 	font-weight: normal;
 	font-size: 5.5em;
 	font-family: Montserrat Alternates, Helvetica, Arial, sans-serif;
-	line-height: 1.5em;
+	line-height: 1.2;
 }
 
 header#cc-header h2.site-title a {
@@ -175,6 +180,10 @@ header #search #searchform {
 /********************************************************************************************************************/
 /******************************************** MENU ******************************************************************/
 /********************************************************************************************************************/
+
+#navigation_menu {
+	margin-top: -55px;
+}
 
 #navigation {
 	margin-bottom: 0px;
