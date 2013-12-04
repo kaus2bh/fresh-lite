@@ -2,6 +2,11 @@ Fresh Lite Changelog
 
 ****************************
 
+Version 1.0.4 (12-04-13)
+- Image size fix: Hooked add_image_size to after_setup_theme.
+- Deleted unused images.
+- Added TGM class to recommend responsive Add Ons.
+
 Version 1.0.3 (11-12-13)
 - Remove skins in customizer
 - Post slides removed
