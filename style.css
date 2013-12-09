@@ -236,6 +236,7 @@ header #search #searchform {
 	border: none;
 	border-radius: 0;
 	background: #656665;
+	filter: none;
 }
 
 .main-navigation .nav li ul li ul {
