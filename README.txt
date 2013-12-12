@@ -1,4 +1,4 @@
-Fresh Lite responsive Wordpress theme
+Fresh Lite responsive WordPress theme
 ====================================
 
 - Fresh Lite, Copyright 2013
