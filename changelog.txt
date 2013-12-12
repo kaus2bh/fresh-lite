@@ -2,7 +2,11 @@ Fresh Lite Changelog
 
 ****************************
 
-Version 1.0.45 (12-11-13)
+Version 1.0.6 (12-12-13)
+- Fixed social icon links.
+- Fixed metabox toggle option.
+
+Version 1.0.5 (12-11-13)
 - Added Font-Based Social Icons.
 - Integrated Font Awesome (Bootstrap font).
 - Added retina ready images and style for it.
