@@ -2,6 +2,14 @@ Fresh Lite Changelog
 
 ****************************
 
+Version 1.0.16 (2-27-14)
+- Updated elements images along with boxes images.
+- Fixed Read more text option.
+- Responsive toggle fix: tweaked full-width-container width.
+- Background option fix.
+- Removed post format icon from page.
+- Updated screenshot.
+
 Version 1.0.15 (2-18-14)
 - Slider is made to be start sliding on page load.
 
