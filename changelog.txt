@@ -2,6 +2,9 @@ Fresh Lite Changelog
 
 ****************************
 
+Version 1.0.20 (3-27-14)
+- Updated Elements Translation.
+
 Version 1.0.19 (3-21-14)
 - Updated support forum URL.
 - Fixed IE8 compatibility issue.
