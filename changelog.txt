@@ -2,6 +2,10 @@ Fresh Lite Changelog
 
 ****************************
 
+Version 1.0.22 (4-9-14)
+-Added upgrade button to the free theme customizer.
+-Fixed Vimeo video responsiveness.
+
 Version 1.0.21 (4-3-14)
 - Added new background option.
 - Removed wp_register_style(or script) for local css/js files.
