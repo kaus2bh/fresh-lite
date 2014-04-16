@@ -2,6 +2,10 @@ Fresh Lite Changelog
 
 ****************************
 
+Version 1.0.23 (4-16-14)
+- Changed social font icons to font awesome.
+- Removed unwanted function_exists() conditional wrapper.
+
 Version 1.0.22 (4-9-14)
 -Added upgrade button to the free theme customizer.
 -Fixed Vimeo video responsiveness.
