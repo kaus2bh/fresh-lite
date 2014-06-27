@@ -2,6 +2,9 @@ Fresh Lite Changelog
 
 ****************************
 
+Version 1.0.33 (6-27-14)
+- Core Translation Updated.
+
 Version 1.0.32 (6-20-14)
 - Code reformatting: Changed spaces to tabs.
 
