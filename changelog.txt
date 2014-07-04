@@ -2,6 +2,9 @@ Fresh Lite Changelog
 
 ****************************
 
+Version 1.0.34 (7-04-14)
+- Added option for Instagram Icon.
+
 Version 1.0.33 (6-27-14)
 - Core Translation Updated.
 
