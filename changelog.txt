@@ -2,6 +2,10 @@ Fresh Lite Changelog
 
 ****************************
 
+Version 1.0.38 (8-08-14)
+- Fixed conflict of footer widgets with other widgets.
+- Responsive fix for uploaded video.
+
 Version 1.0.37 (7-25-14)
 - Layout fixed for multiple rows of footer widget.
 
