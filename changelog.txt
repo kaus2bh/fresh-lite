@@ -2,6 +2,10 @@ Fresh Lite Changelog
 
 ****************************
 
+Version 1.0.44 (1-23-15)
+- Fixed conflict between slider free and pro plugin.
+- Added new plugin suggestion.
+
 Version 1.0.43 (11-25-14)
 - Removed theme activation notice.
 - Changed default links for slider.
